@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { createRoot } from "react-dom/client";
-import { ThemeProvider } from "@cloudflare/agents-ui/hooks";
+import { ThemeProvider } from "./ui/hooks";
 import {
   ConnectionIndicator,
   ModeToggle,
   PoweredByAgents,
   type ConnectionStatus
-} from "@cloudflare/agents-ui";
+} from "./ui";
 import { Button, Badge, Surface, Text, Empty } from "@cloudflare/kumo";
 import {
   WrenchIcon,
